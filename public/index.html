@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill's Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="fixed w-full bg-gray-800 text-white p-5 font-semibold">
+        <a href="#home" class="mr-5 font-webTitle text-2xl">Bill's Kitchen</a>
+        <a href="#home" class="mr-5">Home</a>
+        <a href="#about" class="mr-5">About</a>
+        <a href="#menu" class="mr-5">Menu</a>
+        <a href="#contact" class="mr-5">Contact</a>
+    </nav>
+    <main class="pt-16">
+        <div id="home" class="bg-gray-100 p-10 h-screen">
+            <h1 class="text-5xl ml-2 pb-2 font-webTitle">Bill's Kitchen</h1>
+            <hr class="border-gray-700 w-full p-2">
+            <h3 class="text-xl pl-5 font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam explicabo dignissimos voluptatum, labore excepturi sunt perspiciatis voluptates aspernatur earum vero id impedit maxime temporibus quam cupiditate! Illo, sit nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui iure quaerat laudantium tenetur neque vitae, reiciendis repellendus nulla vel aliquid cumque tempora atque eos error corporis est quisquam? Obcaecati.</h3>
+
+            <div class="grid grid-cols-3 pt-5 cursor-pointer">
+                <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                    <img src="img/beef-wellington.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Beaf Wellington</span>
+                        <span class="block text-gray-500 text-sm">Seared Filet mignon with mushroom and puff pastry</span>
+                    </div>
+                    <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                          </svg>
+                        <span>4.7</span>
+                    </div>
+                </div>
+                <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                    <img src="img/seared-scallops.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Seared Scallops</span>
+                        <span class="block text-gray-500 text-sm">Fresh Hokkaido scallops</span>
+                    </div>
+                    <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                          </svg>
+                        <span>4.9</span>
+                    </div>
+                </div>
+                <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                    <img src="img/american-pancakes.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">American Pancakes</span>
+                        <span class="block text-gray-500 text-sm">Classic pancakes with honey and butter</span>
+                    </div>
+                    <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                          </svg>
+                        <span>4.0</span>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div id="about" class="bg-gray-100 p-10 h-screen">
+            <h1 class="text-5xl pb-2 font-webTitle">About Bill's Kitchen</h1>
+            <hr class="border-gray-700 w-full p-2">
+            <div class="grid grid-cols-3">
+                <div class="p-2">
+                    <h1 class="text-2xl font-googleTitle">The Best Restaurant in New York!</h1>
+                    <h4 class="text-xl mt-1 font-googleComment text-right">by New York Times</h2>
+                    <h3 class="text-lg pt-4 font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam explicabo dignissimos voluptatum, labore excepturi sunt perspiciatis voluptates aspernatur earum vero id impedit maxime temporibus quam cupiditate! Illo, sit nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui iure quaerat laudantium tenetur neque vitae, reiciendis repellendus nulla vel aliquid cumque tempora atque eos error corporis est quisquam? Obcaecati.</h3>
+                </div>
+                <div class="p-2">
+                    <h1 class="text-2xl font-googleTitle">Can't Wait to Visit Again!!</h1>
+                    <h4 class="text-xl mt-1 font-googleComment text-right">by CNN</h2>
+                    <h3 class="text-lg pt-4 font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam explicabo dignissimos voluptatum, labore excepturi sunt perspiciatis voluptates aspernatur earum vero id impedit maxime temporibus quam cupiditate! Illo, sit nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui iure quaerat laudantium tenetur neque vitae, reiciendis repellendus nulla vel aliquid cumque tempora atque eos error corporis est quisquam? Obcaecati.</h3>
+                </div>
+                <div class="p-2">
+                    <h1 class="text-2xl font-googleTitle">It Deserves a Michelin Star!</h1>
+                    <h4 class="text-xl mt-1 font-googleComment text-right">by Michelin Guide</h2>
+                    <h3 class="text-lg pt-4 font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam explicabo dignissimos voluptatum, labore excepturi sunt perspiciatis voluptates aspernatur earum vero id impedit maxime temporibus quam cupiditate! Illo, sit nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui iure quaerat laudantium tenetur neque vitae, reiciendis repellendus nulla vel aliquid cumque tempora atque eos error corporis est quisquam? Obcaecati.</h3>
+                </div>
+            </div>
+        </div>
+        <div id="menu" class="p-10 bg-gray-100">
+            <h1 class="text-5xl pb-2 font-webTitle">Menu of Bill's Kitchen</h1>
+            <hr class="border-gray-700 w-full p-2">
+            <div class="appetizer">
+                <h2 class="text-3xl p-3 ml-2 font-webTitle">Appetizer</h2>
+                <div class="grid grid-cols-3 pt-5 cursor-pointer">
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/garlic-soup.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                                <span class="font-bold">Garlic Soup</span>
+                                <span class="block text-gray-500 text-sm">Fresh garlic soup served with bread</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.3</span>
+                        </div>
+                    </div>
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/caesar-salad.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Caesar Salad</span>
+                            <span class="block text-gray-500 text-sm">Baby lettuce, bread and parmesan cheese</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.2</span>
+                        </div>
+                    </div>
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/egg-salad.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Egg Salad with Bread</span>
+                            <span class="block text-gray-500 text-sm">Fresh egg salad with red onion on bread</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>3.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="entree">
+                <h2 class="text-3xl p-3 ml-2 mt-3 font-webTitle">Entree</h2>
+                <div class="grid grid-cols-3 pt-5 cursor-pointer">
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/beef-wellington.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                                <span class="font-bold">Beaf Wellington</span>
+                                <span class="block text-gray-500 text-sm">Seared Filet mignon with mushroom and puff pastry</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.7</span>
+                        </div>
+                    </div>
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/seared-scallops.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Seared Scallops</span>
+                            <span class="block text-gray-500 text-sm">Fresh Hokkaido scallops</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/ratatouille.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Ratatouille</span>
+                            <span class="block text-gray-500 text-sm">Eggplants, potatoes and tomatoes</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dessert">
+                <h2 class="text-3xl p-3 ml-2 mt-3 font-webTitle">Dessert</h2>
+                <div class="grid grid-cols-3 pt-5 cursor-pointer">
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/cheese-cake.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                                <span class="font-bold">Cheese Cake</span>
+                                <span class="block text-gray-500 text-sm">Rich cheese cake</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.1</span>
+                        </div>
+                    </div>
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/boston-pie.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Boston Pie</span>
+                            <span class="block text-gray-500 text-sm">With custard cream and chocolate ganache</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.2</span>
+                        </div>
+                    </div>
+                    <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden hover:shadow-lg"> 
+                        <img src="img/american-pancakes.jpeg" alt="beef wellington" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">American Pancakes</span>
+                            <span class="block text-gray-500 text-sm">Classic pancakes with honey and butter</span>
+                        </div>
+                        <div class="bg-yellow-800 text-white rounded-full w-14 p-0.5 text-xs font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                              </svg>
+                            <span>4.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="bg-gray-100 h-screen">
+            <h1 class="text-center text-5xl p-5 font-webTitle">Contact Us</h1>
+            <div class="h-1/2 w-1/3 bg-blue-500 mx-auto rounded-lg text-white relative">
+                <h2 class="text-xl font-serif font-bold pt-5 pl-5 inline-block"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 inline-block bg-blue-400 rounded-full p-2 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                  </svg>Address:</h2>
+                  <h4 class="inline-block font-serif">100, 7th Street, Queens, New York City</h4>
+                <h2 class="text-xl font-serif font-bold pt-5 pl-5 inline-block"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 inline-block bg-blue-400 rounded-full p-2 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>Phone:</h2>
+                  <h4 class="inline-block pr-16 font-serif">(812) 1-569-417-230</h4>
+                <h2 class="text-xl font-serif font-bold pt-5 pl-5 inline-block"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 inline-block bg-blue-400 rounded-full p-2 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>Email:</h2>
+                  <h4 class="inline-block font-serif">billskitchen@gmail.com</h4>
+                <button class="font-serif font-bold bg-yellow-500 p-2 rounded-xl shadow-lg hover:shadow-inner hover:bg-yellow-400 absolute bottom-5 left-40">Online Booking</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
